@@ -1,0 +1,9 @@
+* House Finder
+A simple django app with a restful api to allow us manager house and apartements to rent
+
+** Running
+#+BEGIN_EXAMPLE
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+#+END_EAMPLE
