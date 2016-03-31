@@ -1,0 +1,33 @@
+- model: api.house
+  pk: 1
+  fields:
+    create_at: !!timestamp '2016-03-31 15:32:57.737611+00:00'
+    title: "APARTAMENTO no 8\xBA andar com 2 dormit\xF3rios e 1 garagem"
+    description: "APARTAMENTO no 8\xBA andar com 2 dormit\xF3rios e 1 garagem"
+    rent: '2100.00'
+    condominium_association_fee: '1030.00'
+    bedrooms: 2
+    bathrooms: 2
+    garage: 1
+- model: api.house
+  pk: 2
+  fields:
+    create_at: !!timestamp '2016-03-31 15:35:05.672561+00:00'
+    title: "APARTAMENTO no 6\xBA andar mobiliado com 1 dormit\xF3rio e 1 garagem"
+    description: "APARTAMENTO no 6\xBA andar mobiliado com 1 dormit\xF3rio e 1 garagem"
+    rent: '1400.00'
+    condominium_association_fee: '424.00'
+    bedrooms: 1
+    bathrooms: 1
+    garage: 1
+- model: api.house
+  pk: 3
+  fields:
+    create_at: !!timestamp '2016-03-31 15:37:49.593155+00:00'
+    title: "Apartamento no 5\xBA andar com 2 dormit\xF3rios e 1 garagem"
+    description: 'https://www.quintoandar.com.br/apartamento/81839/s/2-quartos-agua-branca-sao-paulo'
+    rent: '1800.00'
+    condominium_association_fee: '340.00'
+    bedrooms: 2
+    bathrooms: 1
+    garage: 1
