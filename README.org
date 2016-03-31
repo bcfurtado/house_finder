@@ -1,9 +1,17 @@
 * House Finder
 A simple django app with a restful api to allow us manager house and apartements to rent
 
+** Installing
+#+BEGIN_SRC sh
+git clone git@github.com:bcfurtado/house_finder.git
+cd house_finder
+mkvirtualenv $(cat .virtual-environment)
+pip install -r requirements.txt
+#+END_SRC
+
 ** Running
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC sh
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-#+END_EAMPLE
+#+END_SRC
