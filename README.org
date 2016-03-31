@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 ** Running
 #+BEGIN_SRC sh
-python manage.py migrate
+make migrate
 make seeds
-python manage.py runserver
+make start
 #+END_SRC
